@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-primary: #43bccd;
+    --color-secondary: #ffffff;
+    --color-3: #f9f1f3;
+
+    /* Text Colors */
+    --text-primary: #222222;
+    --text-secondary: #555555;
+
+    /* Button Colors */
+    --button-1: #c1e7ec80;
+    --button-2: #ea35461a;
+    --button-2-hover: #ea3546;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Login Page Start
+---------------------------------------------------------------- */
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.sign-in-container {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.logo-container {
+    width: 12rem;
+}
+
+/* Login Page End
+---------------------------------------------------------------- */
