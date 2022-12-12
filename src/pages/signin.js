@@ -1,5 +1,8 @@
 import React from 'react';
 
+// importing images
+import Logo from '../Assets/Logo/KKGroupLogoWhite'
+
 export default function SignIn() {
     return (
         <div className="container">
@@ -7,7 +10,9 @@ export default function SignIn() {
                 <header className="login-div1">
                     <nav className="logo-container">
                         <a href="/">
-                            <figure>{/* place the logo here */}</figure>
+                            <figure>
+                                <Logo/>
+                            </figure>
                         </a>
                     </nav>
                 </header>
