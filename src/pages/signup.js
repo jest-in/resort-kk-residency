@@ -1,21 +1,12 @@
 import React from 'react'
+import Footer from '../components/footer'
+import Header from '../components/header'
 
 export default function SignUp() {
   return (
     <>
         
-        <header>
-            <nav>
-                <a href="/">
-                    <figure>
-                        {/* <!-- place the logo here --> */}
-                        <figcaption>
-                            {/* <!-- place the caption of the image here --> */}
-                        </figcaption>
-                    </figure>
-                </a>
-            </nav>
-        </header>
+        <Header/>
 
         <main>
 
@@ -49,42 +40,7 @@ export default function SignUp() {
 
         </main>
 
-        <footer>
-            <div>
-                <p>
-                    &copy; <time datetime="2022">2022</time>
-                </p>
-                <address>
-                    KK Group of Residency, Virajpet | Designed by Aashan Creative Studio
-                </address>
-            </div>
-            <ul>
-                <li>
-                    <a href="#">
-                        facebook
-                        <figure>
-                            {/* <!-- place the facebook image here of the footer here --> */}
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        instagram
-                        <figure>
-                            {/* <!-- place the instagram image here of the footer here --> */}
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        youtube
-                        <figure>
-                            {/* <!-- place the youtube image here of the footer here --> */}
-                        </figure>
-                    </a>
-                </li>
-            </ul>
-        </footer>   
+        <Footer/>  
 
     </>
   )
