@@ -3,31 +3,14 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import { addDays } from "date-fns";
 import "react-datepicker/dist/react-datepicker.css";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default function OneRoom() {
   return (
     <>
-      <header>
-        <h1 style={{ display: "none" }}>Luxury plus room</h1>
-        <p>KK Residency</p>
-        <nav>
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="#rooms">Rooms</a>
-            </li>
-            <li>
-              <a href="#about">About us</a>
-            </li>
-            <li>
-              <a href="#contact">Contact us</a>
-            </li>
-          </ul>
-          <a href="/index.html">Sign in</a>
-        </nav>
-      </header>
+      <Header/>
+
       <main>
         <p>Luxury Plus</p>
         <p>★ 4.9 (254)</p>
@@ -162,42 +145,8 @@ export default function OneRoom() {
         </section>
         <hr />
       </main>
-      <footer>
-        <div>
-          <p>
-            © <time dateTime={2022}>2022</time>
-          </p>
-          <address>
-            KK Group of Residency, Virajpet | Designed by Aashan Creative Studio
-          </address>
-        </div>
-        <ul>
-          <li>
-            <a href="#">
-              facebook
-              <figure>
-                {/* place the facebook image here of the footer here */}
-              </figure>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              instagram
-              <figure>
-                {/* place the instagram image here of the footer here */}
-              </figure>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              youtube
-              <figure>
-                {/* place the youtube image here of the footer here */}
-              </figure>
-            </a>
-          </li>
-        </ul>
-      </footer>
+      
+      <Footer/>
     </>
   );
 }

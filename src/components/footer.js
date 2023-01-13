@@ -15,25 +15,25 @@ export default function Footer() {
         <li>
           <a href="#">
             facebook
-            <figure>
-              {/* place the facebook image here of the footer here */}
-            </figure>
+            <span aria-hidden='true'>
+              {/* place the facebook svg */}
+            </span>
           </a>
         </li>
         <li>
           <a href="#">
             instagram
-            <figure>
-              {/* place the instagram image here of the footer here */}
-            </figure>
+            <span aria-hidden='true'>
+              {/* place the instagram svg */}
+            </span>
           </a>
         </li>
         <li>
           <a href="#">
             youtube
-            <figure>
-              {/* place the youtube image here of the footer here */}
-            </figure>
+            <span aria-hidden='true'>
+              {/* place the youtube svg */}
+            </span>
           </a>
         </li>
       </ul>

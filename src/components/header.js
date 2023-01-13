@@ -11,7 +11,7 @@ export default function Header() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#rooms">Rooms</a>
+            <a href="/all-rooms">Rooms</a>
           </li>
           <li>
             <a href="#about">About us</a>

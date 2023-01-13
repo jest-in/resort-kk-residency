@@ -2,6 +2,7 @@ import React from 'react';
 
 // importing images
 import Logo from '../Assets/Logo/KKGroupLogoWhite'
+import Footer from '../components/footer';
 
 export default function SignIn() {
     return (
@@ -52,49 +53,15 @@ export default function SignIn() {
                             <button type="submit">Sign in</button>
                         </form>
                         <section>
-                            <a href="#">forgot password?</a>
-                            <a href="/signup.html">Dont't have an account?</a>
+                            <a href="/forgot-password">forgot password?</a>
+                            <a href="/register">Dont't have an account?</a>
                         </section>
                     </div>
                 </main>
             </div>
-            <footer>
-                <div>
-                    <p>
-                        © <time dateTime={2022}>2022</time>
-                    </p>
-                    <address>
-                        KK Group of Residency, Virajpet | Designed by Aashan
-                        Creative Studio
-                    </address>
-                </div>
-                <ul>
-                    <li>
-                        <a href="#">
-                            facebook
-                            <figure>
-                                {/* place the facebook image here of the footer here */}
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            instagram
-                            <figure>
-                                {/* place the instagram image here of the footer here */}
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            youtube
-                            <figure>
-                                {/* place the youtube image here of the footer here */}
-                            </figure>
-                        </a>
-                    </li>
-                </ul>
-            </footer>
+            
+            <Footer/>
+
         </div>
     );
 }

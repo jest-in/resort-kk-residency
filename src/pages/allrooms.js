@@ -1,21 +1,11 @@
 import React from 'react'
+import Header from '../components/header'
 
 export default function AllRooms() {
   return (
     <>
-        <header>
-            <p>KK Residency</p>
-            <h1 style={{display: 'none'}}>All rooms</h1>
-            <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#rooms">Rooms</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#contact">Contact us</a></li>
-            </ul>
-            <a href="/index.html">Sign in</a>
-            </nav>
-        </header>
+        <Header/>
+        
         <main>
             <article>
                 <figure>
