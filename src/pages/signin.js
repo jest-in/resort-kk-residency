@@ -4,7 +4,7 @@ import React from 'react';
 import Logo from '../Assets/Logo/KKGroupLogoWhite';
 import Footer from '../components/footer';
 import image from "../Assets/Images/Login Image.jpg";
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function SignIn() {
     return (
