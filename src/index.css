@@ -43,7 +43,7 @@ body {
     width: 100vw;
 }
 
-.login-div1{
+.login-div1 {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -52,7 +52,7 @@ body {
     padding: 2rem;
 }
 
-.login-div1-container{
+.login-div1-container {
     display: flex;
     flex-direction: column;
     width: 75%;
@@ -66,7 +66,7 @@ body {
     width: 18rem;
 }
 
-.login-head-container{
+.login-head-container {
     font-family: 'Sora', sans-serif;
     font-size: 5rem;
     font-style: normal;
@@ -76,13 +76,13 @@ body {
     margin-top: 5rem;
 }
 
-.login-image-container img{
+.login-image-container img {
     border-radius: 1rem;
     width: 35rem;
     margin-top: 2rem;
 }
 
-.login-caption-div{
+.login-caption-div {
     font-family: 'Sora', sans-serif;
     font-size: 2rem;
     font-style: normal;
@@ -92,7 +92,7 @@ body {
     margin-top: 2rem;
 }
 
-.login-div2{
+.login-div2 {
     width: 50%;
     display: flex;
     align-items: center;
@@ -100,36 +100,57 @@ body {
     padding-left: 10rem;
 }
 
-.login-form-container{
+.login-form-container {
     display: flex;
     flex-direction: column;
 }
 
-.login-entries-div{
+.login-entries-div {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.login-entries-label{
+.login-entries-label {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-secondary);
     margin-top: 2rem;
 }
-.login-error{
+
+.login-entries-div dialog {
+    border: none !important;
+    display: block ;
+    align-items: center;
+}
+
+.login-error {
     font-size: 1rem;
     font-weight: 600;
     margin-top: 0.5rem;
     color: var(--button-2-hover);
+    align-self: center;
 }
 
-.login-entries-div input{
+dialog p{
+    font-size: 2rem;
+}
+
+.login-error-div{
+    width: 500px;
+    height: 20px;
+    background-color: rebeccapurple;
+    display: flex;
+}
+
+.login-entries-div input {
     font-size: 1.5rem;
     font-weight: 600;
     padding: 1rem;
     color: var(--text-primary);
     background-color: var(--color-secondary);
-    border: 0.2rem solid #DCDCDC;
+    border: 0.2rem solid #dcdcdc;
     width: 30rem;
     height: 4rem;
     border-radius: 1rem;
@@ -137,13 +158,13 @@ body {
     margin: 0.5rem 0 0 0;
 }
 
-.login-entries-div input:focus{
+.login-entries-div input:focus {
     background-color: var(--button-1);
     color: var(--color-primary);
     border: 0.2rem solid var(--color-primary);
 }
 
-.login-create-btn-div button{
+.login-create-btn-div button {
     margin-top: 2.5rem;
     font-size: 1.5rem;
     font-weight: 600;
@@ -154,42 +175,41 @@ body {
     border-radius: 1rem;
     border: none;
     outline: none;
-    box-shadow: 0px 15px 20px #C1E7EC;
+    box-shadow: 0px 15px 20px #c1e7ec;
     transition: 0.2s ease-in-out;
-
 }
 
-.login-create-btn-div button:hover{
+.login-create-btn-div button:hover {
     border: 0.2rem solid var(--color-primary);
     background-color: var(--button-1);
     color: var(--color-primary);
     cursor: pointer;
 }
 
-.signin-actions-section{
+.signin-actions-section {
     display: flex;
     flex-direction: column;
 }
 
-.existing-user-link{
+.existing-user-link {
     font-size: 1.5rem;
     font-weight: 600;
-    color:  #9E9E9E;
+    color: #9e9e9e;
     text-decoration: none;
     align-self: center;
     justify-self: center;
     margin-top: 3rem;
 }
 
-.existing-user-link:hover{
+.existing-user-link:hover {
     color: var(--color-primary);
 }
 
-.new-user-link{
+.new-user-link {
     margin-top: 0.5rem;
 }
 
-.login-footer{
+.login-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,33 +217,34 @@ body {
     height: 10vh;
 }
 
-.login-footer-border{
+.login-footer-border {
     border: 0.1rem solid var(--text-secondary);
     width: 80%;
 }
 
-.login-footer-container{
+.login-footer-container {
     display: flex;
     width: 80%;
     margin-top: 2rem;
     padding: 0 2rem;
 }
 
-.login-footer-sec1{
+.login-footer-sec1 {
     display: flex;
     width: 90%;
     font-size: 2rem;
     color: var(--text-primary);
 }
 
-.login-footer-sec2{
+.login-footer-sec2 {
     display: flex;
     width: 10%;
     justify-content: space-between;
 }
 
-.login-footer-sec2 svg:hover{
-    filter: invert(87%) sepia(7%) saturate(6931%) hue-rotate(152deg) brightness(86%) contrast(85%);
+.login-footer-sec2 svg:hover {
+    filter: invert(87%) sepia(7%) saturate(6931%) hue-rotate(152deg)
+        brightness(86%) contrast(85%);
     cursor: pointer;
 }
 /* Login Page End

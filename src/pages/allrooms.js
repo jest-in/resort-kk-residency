@@ -9,7 +9,8 @@ export default function AllRooms() {
         <main>
             <article>
                 <figure>
-                    {/* place the image here */}
+                    {/* place the image here */
+                    }
                 </figure>
                 <div>
                     <p>★ 4.9 (254)</p>
