@@ -263,15 +263,19 @@ dialog p {
 .user-nav-header{
     width: 100%;
     height: 15vh;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 8rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-secondary);
 }
 
 .user-nav-logo-div{
     width: 10%;
-    margin-left: 10rem;
+    justify-self: flex-start;
 }
 
 .user-nav{
@@ -282,18 +286,41 @@ dialog p {
 
 .user-nav-entries{
     width: 40%;
-    margin: 0 30rem;
+    margin: 0 28rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-.user-nav-entries li{
+.user-nav-entries li a{
     text-decoration: none;
-    font-size: 2.5rem;
-    font-weight: 700;
     color: var(--text-primary);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.user-nav-entries li a:hover{
+    color: #F86624;
+    font-weight: 700;
+}
+
+#signin-btn-user{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    background-color: #43bccd1a;
+    border: 0.2rem solid var(--color-primary);
+    border-radius: 2rem;
+    padding: 1.5rem 5rem;
+    transition: 0.2s ease-in-out;
+}
+
+#signin-btn-user:hover{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    filter: drop-shadow(0px 15px 40px #CCEFF4);
 }
 
 .user-allroom-main{
@@ -308,6 +335,7 @@ dialog p {
     height: 40%;
     padding: 0 8rem;
     display: flex;
+    margin-top: 2rem;
 }
 
 .room-img-div{

@@ -7,7 +7,6 @@ import Logo from '../Assets/Logo/KKGroupLogoBlack';
 export default function Header() {
     return (
         <header className="user-nav-header">
-            <p>KK Residency</p>
             <div className="user-nav-logo-div">
                 <Link to="/">
                     <figure>
@@ -19,44 +18,19 @@ export default function Header() {
             <nav className="user-nav">
                 <ul className="user-nav-entries">
                     <li>
-                        <NavLink
-                            to="/"
-                            style={{ textDecoration: 'none', color: 'black' }}
-                        >
-                            Home
-                        </NavLink>
+                        <NavLink to="/">Home</NavLink>
                     </li>
                     <li>
-                        <NavLink
-                            to="/all-rooms"
-                            style={{ textDecoration: 'none', color: 'black' }}
-                        >
-                            Rooms
-                        </NavLink>
+                        <NavLink to="/all-rooms">Rooms</NavLink>
                     </li>
                     <li>
-                        <NavLink
-                            to="/about"
-                            style={{ textDecoration: 'none', color: 'black' }}
-                        >
-                            About us
-                        </NavLink>
+                        <NavLink to="/about">About us</NavLink>
                     </li>
                     <li>
-                        <NavLink
-                            to="/contact"
-                            style={{ textDecoration: 'none', color: 'black' }}
-                        >
-                            Contact us
-                        </NavLink>
+                        <NavLink to="/contact">Contact us</NavLink>
                     </li>
                 </ul>
-                <Link
-                    to="/login"
-                    style={{ textDecoration: 'none', color: 'black' }}
-                >
-                    Sign in
-                </Link>
+                <Link to="/login" id='signin-btn-user'>Sign in</Link>
             </nav>
         </header>
     );
