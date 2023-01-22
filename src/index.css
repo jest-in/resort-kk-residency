@@ -228,6 +228,7 @@ dialog p {
     width: 80%;
     margin-top: 2rem;
     padding: 0 2rem;
+    margin-bottom: 5rem;
 }
 
 .login-footer-sec1 {
@@ -237,7 +238,7 @@ dialog p {
     color: var(--text-primary);
 }
 
-.login-footer-sec1 address{
+.login-footer-sec1 address {
     font-style: normal;
 }
 
@@ -256,11 +257,10 @@ dialog p {
 /* Login Page End
 ---------------------------------------------------------------- */
 
-
 /* All User Page Start
 ---------------------------------------------------------------- */
 
-.user-nav-header{
+.user-nav-header {
     width: 100%;
     height: 15vh;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
@@ -273,18 +273,18 @@ dialog p {
     background-color: var(--color-secondary);
 }
 
-.user-nav-logo-div{
+.user-nav-logo-div {
     width: 10%;
     justify-self: flex-start;
 }
 
-.user-nav{
+.user-nav {
     width: 90%;
     display: flex;
     font-size: 3rem;
 }
 
-.user-nav-entries{
+.user-nav-entries {
     width: 40%;
     margin: 0 28rem;
     display: flex;
@@ -293,19 +293,19 @@ dialog p {
     list-style-type: none;
 }
 
-.user-nav-entries li a{
+.user-nav-entries li a {
     text-decoration: none;
     color: var(--text-primary);
     font-size: 1.8rem;
     font-weight: 600;
 }
 
-.user-nav-entries li a:hover{
-    color: #F86624;
+.user-nav-entries li a:hover {
+    color: #f86624;
     font-weight: 700;
 }
 
-#signin-btn-user{
+#signin-btn-user {
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 600;
@@ -317,20 +317,20 @@ dialog p {
     transition: 0.2s ease-in-out;
 }
 
-#signin-btn-user:hover{
+#signin-btn-user:hover {
     background-color: var(--color-primary);
     color: var(--color-secondary);
-    filter: drop-shadow(0px 15px 40px #CCEFF4);
+    filter: drop-shadow(0px 15px 40px #cceff4);
 }
 
-.user-allroom-main{
+.user-allroom-main {
     height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.room-category{
+.room-category {
     width: 100%;
     height: 40%;
     padding: 0 8rem;
@@ -338,15 +338,14 @@ dialog p {
     margin-top: 2rem;
 }
 
-.room-img-div{
+.room-img-div {
     width: 30%;
     height: 100%;
     display: flex;
     align-items: center;
-
 }
 
-.room-details-div{
+.room-details-div {
     width: 50%;
     height: 100%;
     display: flex;
@@ -355,46 +354,46 @@ dialog p {
     padding: 0 2rem;
 }
 
-.room-rating{
+.room-rating {
     display: flex;
     align-items: baseline;
 }
 
-.rating-star{
+.rating-star {
     color: var(--color-primary);
     font-size: 3rem;
 }
 
-.rating-point{
+.rating-point {
     font-size: 2rem;
     font-weight: 500;
 }
 
-.rating-user-count{
+.rating-user-count {
     font-size: 1.3rem;
 }
 
-.room-category-name{
+.room-category-name {
     font-size: 4rem;
     margin: 1rem 0;
 }
 
-.reeom-cat-des{
+.reeom-cat-des {
     font-size: 2.5rem;
     margin-bottom: 3rem;
 }
 
-.room-features-div{
+.room-features-div {
     width: 100%;
     display: flex;
 }
 
-.room-features{
+.room-features {
     display: flex;
     width: 50%;
 }
 
-.room-features ul{
+.room-features ul {
     font-size: 2.5rem;
     list-style-type: none;
     display: flex;
@@ -405,14 +404,14 @@ dialog p {
     color: var(--text-secondary);
 }
 
-.learn-more-btn-div{
+.learn-more-btn-div {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.learn-more-btn{
+.learn-more-btn {
     font-size: 1.8rem;
     background: none;
     border: none;
@@ -420,12 +419,12 @@ dialog p {
     font-weight: 500;
 }
 
-.learn-more-btn:hover{
+.learn-more-btn:hover {
     cursor: pointer;
     color: var(--button-2-hover);
 }
 
-.room-price-div{
+.room-price-div {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -433,19 +432,19 @@ dialog p {
     justify-content: flex-end;
 }
 
-.room-price-desc{
+.room-price-desc {
     font-size: 1.8rem;
     color: var(--text-secondary);
     font-weight: 600;
 }
 
-.room-price{
+.room-price {
     font-size: 2.5rem;
     color: var(--button-2-hover);
     font-weight: 700;
 }
 
-.book-now-btn{
+.book-now-btn {
     font-size: 1.8rem;
     color: var(--button-2-hover);
     background-color: #ea35461a;
@@ -458,9 +457,9 @@ dialog p {
     margin-bottom: 3rem;
 }
 
-.book-now-btn:hover{
+.book-now-btn:hover {
     cursor: pointer;
-    filter: drop-shadow(0px 15px 40px #F2A8AF);
+    filter: drop-shadow(0px 15px 40px #f2a8af);
     background-color: var(--button-2-hover);
     color: var(--color-secondary);
 }

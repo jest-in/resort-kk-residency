@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 
+import Footer from '../components/footer';
 import cat1 from '../Assets/Images/Room Category 1.jpg';
 import cat2 from '../Assets/Images/Room Category 2.png';
 import cat3 from '../Assets/Images/Room Category 3.png';
@@ -297,6 +298,7 @@ export default function AllRooms() {
                     </div>
                 </article>
                 <hr className="room-cat-border" />
+                <Footer />
             </main>
         </div>
     );
