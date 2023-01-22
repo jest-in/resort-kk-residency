@@ -1,3 +1,13 @@
+/* Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 18em) {
+    * {
+        font-size: 43.75%;
+    }
+    /* .login-image-container img {
+        width: 50rem;
+    } */
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 37em) {
     * {
@@ -34,6 +44,10 @@
     }
     .login-footer-sec2 {
         width: 40%;
+    }
+    /*all rooms*/
+    .room-category {
+        flex-direction: column;
     }
 }
 

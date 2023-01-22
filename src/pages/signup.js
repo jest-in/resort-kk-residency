@@ -38,7 +38,7 @@ export default function SignUp() {
                 </div>
                 <main className="login-div2">
                     <div className="login-form-container">
-                        <form action="#">
+                        <form action="#" autocomplete="off">
                             <p className="login-entries-div">
                                 <label
                                     className="login-entries-label"

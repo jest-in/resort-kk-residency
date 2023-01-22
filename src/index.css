@@ -35,6 +35,7 @@ body {
     height: 100vh;
     width: 100vw;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .sign-in-container {
@@ -121,7 +122,7 @@ body {
 
 .login-entries-div dialog {
     border: none !important;
-    display: block ;
+    display: block;
     align-items: center;
 }
 
@@ -133,11 +134,11 @@ body {
     align-self: center;
 }
 
-dialog p{
+dialog p {
     font-size: 2rem;
 }
 
-.login-error-div{
+.login-error-div {
     width: 500px;
     height: 20px;
     background-color: rebeccapurple;
@@ -236,6 +237,10 @@ dialog p{
     color: var(--text-primary);
 }
 
+.login-footer-sec1 address{
+    font-style: normal;
+}
+
 .login-footer-sec2 {
     display: flex;
     width: 10%;
@@ -247,5 +252,196 @@ dialog p{
         brightness(86%) contrast(85%);
     cursor: pointer;
 }
+
 /* Login Page End
+---------------------------------------------------------------- */
+
+
+/* All User Page Start
+---------------------------------------------------------------- */
+
+.user-nav-header{
+    width: 100%;
+    height: 15vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-nav-logo-div{
+    width: 10%;
+    margin-left: 10rem;
+}
+
+.user-nav{
+    width: 90%;
+    display: flex;
+    font-size: 3rem;
+}
+
+.user-nav-entries{
+    width: 40%;
+    margin: 0 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.user-nav-entries li{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.user-allroom-main{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.room-category{
+    width: 100%;
+    height: 40%;
+    padding: 0 8rem;
+    display: flex;
+}
+
+.room-img-div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.room-details-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.room-rating{
+    display: flex;
+    align-items: baseline;
+}
+
+.rating-star{
+    color: var(--color-primary);
+    font-size: 3rem;
+}
+
+.rating-point{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.rating-user-count{
+    font-size: 1.3rem;
+}
+
+.room-category-name{
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.reeom-cat-des{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.room-features-div{
+    width: 100%;
+    display: flex;
+}
+
+.room-features{
+    display: flex;
+    width: 50%;
+}
+
+.room-features ul{
+    font-size: 2.5rem;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.learn-more-btn-div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.learn-more-btn{
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.learn-more-btn:hover{
+    cursor: pointer;
+    color: var(--button-2-hover);
+}
+
+.room-price-div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.room-price-desc{
+    font-size: 1.8rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.room-price{
+    font-size: 2.5rem;
+    color: var(--button-2-hover);
+    font-weight: 700;
+}
+
+.book-now-btn{
+    font-size: 1.8rem;
+    color: var(--button-2-hover);
+    background-color: #ea35461a;
+    border: 0.3rem solid var(--button-2-hover);
+    border-radius: 2rem;
+    font-weight: 600;
+    padding: 1.5rem 4rem;
+    transition: 0.2s ease-in-out;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.book-now-btn:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 15px 40px #F2A8AF);
+    background-color: var(--button-2-hover);
+    color: var(--color-secondary);
+}
+
+.room-cat-border {
+    border: 0.1rem solid #5555554d;
+    width: 90%;
+    margin: 3rem 0;
+}
+
+/* All User Page End
 ---------------------------------------------------------------- */
