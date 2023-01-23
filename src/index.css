@@ -109,15 +109,77 @@ body {
 /* Calender User Start
 ---------------------------------------------------------------- */
 
+
+/* 404 Error Page Start
+---------------------------------------------------------------- */
+
+.page404-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page404-heading{
+    font-size: 10rem;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+}
+
+.page404-heading:hover{
+    scale: 105%;
+    color: var(--button-2-hover);
+}
+
+.error404-gif{
+    width: 100%;
+    height: auto;
+}
+
+.page404-desctext{
+    font-size: 2rem;
+    padding: 1rem 5rem 1rem 5rem;
+    font-weight: 600;
+}
+
+.page404-desctext-details{
+    font-size: 2rem;
+    padding: 1rem 10rem;
+    max-width: 80rem;
+}
+
+.page404-goback-btn{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    background-color: rgb(41, 202, 41);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 2rem 10rem;
+    transition: 0.2s ease-in-out;
+}
+
+.page404-goback-btn:hover{
+    background-color: rgb(78, 153, 78);
+    scale: 105%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 404 Error Page End
+---------------------------------------------------------------- */
+
 /* Login Page Start
 ---------------------------------------------------------------- */
-.container {
+/* .container {
     display: flex;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
     overflow-x: hidden;
-}
+} */
 
 .sign-in-container {
     display: flex;
@@ -815,31 +877,33 @@ dialog p {
     margin: 3rem 0;
 }
 
-.things-to-know-container{
+.things-to-know-container {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     font-size: 1rem;
 }
 
-.houserules-text{
+.houserules-text {
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.things-toknow-items{
+.things-toknow-items {
     font-size: 1.5rem;
     margin-top: 0.5rem;
 }
 
-.terms-container{
+.terms-container {
     display: flex;
     margin-bottom: 5rem;
 }
 
-.house-rules-sec{
+.house-rules-sec {
     width: 30%;
 }
 
 /* One Room Page End
 ---------------------------------------------------------------- */
+
+
