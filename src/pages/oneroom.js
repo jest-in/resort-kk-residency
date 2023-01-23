@@ -233,39 +233,45 @@ export default function OneRoom() {
                 <hr className="whatitoffers-hr" />
                 <section className="whatitoffers-div">
                     <h2 className="whatitoffers-heading">Things to know</h2>
-                    <section>
-                        <h3 className="houserules-text">House rules</h3>
-                        <ul className="things-to-know-container">
-                            <li className="things-toknow-items">
-                                Check-in:{' '}
-                                <time
-                                    dateTime="12:00"
-                                    className="things-toknow-items"
-                                >
-                                    12:00 pm
-                                </time>{' '}
-                                -{' '}
-                                <time
-                                    dateTime="17:00"
-                                    className="things-toknow-items"
-                                >
-                                    5:00 pm
-                                </time>
-                            </li>
-                            <li className="things-toknow-items">No smoking</li>
-                            <li className="things-toknow-items">No pets</li>
-                            <li className="things-toknow-items">
-                                No parties or events
-                            </li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Cancellation policy</h3>
-                        <p>
-                            Your money will be fully refunded if cancelled
-                            before 3 days.
-                        </p>
-                    </section>
+                    <div className="terms-container">
+                        <section className="house-rules-sec">
+                            <h3 className="houserules-text">House rules</h3>
+                            <ul className="things-to-know-container">
+                                <li className="things-toknow-items">
+                                    Check-in:{' '}
+                                    <time
+                                        dateTime="12:00"
+                                        className="things-toknow-items"
+                                    >
+                                        12:00 pm
+                                    </time>{' '}
+                                    -{' '}
+                                    <time
+                                        dateTime="17:00"
+                                        className="things-toknow-items"
+                                    >
+                                        5:00 pm
+                                    </time>
+                                </li>
+                                <li className="things-toknow-items">
+                                    No smoking
+                                </li>
+                                <li className="things-toknow-items">No pets</li>
+                                <li className="things-toknow-items">
+                                    No parties or events
+                                </li>
+                            </ul>
+                        </section>
+                        <section className="house-rules-sec">
+                            <h3 className="houserules-text">
+                                Cancellation policy
+                            </h3>
+                            <p className="things-toknow-items">
+                                Your money will be fully refunded if cancelled
+                                before 3 days.
+                            </p>
+                        </section>
+                    </div>
                 </section>
                 <hr />
             </main>
