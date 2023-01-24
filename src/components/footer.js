@@ -7,8 +7,8 @@ export default function Footer() {
     return (
         <footer className="login-footer">
             <hr className="login-footer-border" />
-            <div class="login-footer-container">
-                <div class="login-footer-sec1">
+            <div className="login-footer-container">
+                <div className="login-footer-sec1">
                     <p>
                         © <time dateTime={2023}>2023</time>
                     </p>
@@ -17,9 +17,9 @@ export default function Footer() {
                         Creative Studio
                     </address>
                 </div>
-                <ul class="login-footer-sec2">
+                <ul className="login-footer-sec2">
                     <li>
-                        <a href="#">
+                        <a href="/">
                             facebook
                             <span aria-hidden="true">
                                 <Facebook />
@@ -27,7 +27,7 @@ export default function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/">
                             instagram
                             <span aria-hidden="true">
                                 <Instagram />
@@ -35,7 +35,7 @@ export default function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/">
                             youtube
                             <span aria-hidden="true">
                                 <Youtube />
