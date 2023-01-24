@@ -20,7 +20,6 @@ export default function Footer() {
                 <ul className="login-footer-sec2">
                     <li>
                         <a href="/">
-                            facebook
                             <span aria-hidden="true">
                                 <Facebook />
                             </span>
@@ -28,7 +27,6 @@ export default function Footer() {
                     </li>
                     <li>
                         <a href="/">
-                            instagram
                             <span aria-hidden="true">
                                 <Instagram />
                             </span>
@@ -36,7 +34,6 @@ export default function Footer() {
                     </li>
                     <li>
                         <a href="/">
-                            youtube
                             <span aria-hidden="true">
                                 <Youtube />
                             </span>
