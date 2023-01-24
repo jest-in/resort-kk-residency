@@ -380,6 +380,11 @@ dialog p {
     color: var(--text-primary);
 }
 
+.footer-time {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
 .login-footer-sec1 address {
     font-style: normal;
 }
@@ -1011,23 +1016,23 @@ dialog p {
     height: auto;
 }
 
-.bookroom-checkout-time-from{
+.bookroom-checkout-time-from {
     display: flex;
     margin: 0.5rem;
 }
 
-.booknow-checkout-from-label{
+.booknow-checkout-from-label {
     width: 5rem;
 }
 
-.bookroom-checkout-time{
+.bookroom-checkout-time {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--text-secondary);
     padding: 0 1rem;
 }
 
-.bookroom-checkout-amt-div{
+.bookroom-checkout-amt-div {
     width: 100%;
     display: flex;
     align-items: center;
@@ -1037,24 +1042,166 @@ dialog p {
     font-weight: 600;
 }
 
-.bookroom-checkout-price{
+.bookroom-checkout-price {
     font-size: 3rem;
 }
 
-.bookroom-checkout-hr{
+.bookroom-checkout-hr {
     margin: 10rem 0 2rem 0;
 }
 
-.bookroom-rating{
+.bookroom-rating {
     flex-direction: column;
     margin: 0 8rem 0 2rem;
 }
 
-.bookroom-rating h2{
+.bookroom-rating h2 {
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--text-primary);
 }
 
 /* Book Room Page End
+---------------------------------------------------------------- */
+
+/* User Dsahboard Start
+---------------------------------------------------------------- */
+
+.user-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f866240d;
+    width: 100%;
+    height: 100%;
+}
+
+.user-dash-main {
+    padding: 0 20rem;
+    margin-bottom: 5rem;
+}
+
+.user-active-orders-sec-wrap {
+    display: flex;
+    width: 100%;
+}
+
+.user-activeorder-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-top: 2rem;
+}
+
+.user-dashboard-card-div {
+    min-width: 30rem;
+    background-color: var(--color-secondary);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    box-shadow: 4px 4px 40px #fce2d7;
+    margin-left: 2rem;
+}
+
+.userdash-active-img-container {
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--text-primary);
+    position: relative;
+    top: -50px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.user-dashboard-card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.userdash-cat-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-top: -10%;
+}
+
+.userdash-cat-spec-div {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+.userdash-cat-spec-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userdash-cat-spec-div-span-head {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.userdash-cat-spec-div-span {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #777777;
+}
+
+.userdash-card-hr {
+    transform: rotate(180deg);
+    height: 6rem;
+    margin: 0;
+    border: 0.15rem solid #5555554d;
+}
+
+.userdash-cancel-order-btn-div {
+    width: 100%;
+}
+
+.userdash-cancel-order-btn {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--button-2-hover);
+    height: 6rem;
+    width: 100%;
+    background-color: #ea35461a;
+    border: 0.2rem solid #ea354633;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: 0.2s ease-in-out;
+    margin-top: 2rem;
+}
+
+.userdash-cancel-order-btn:hover {
+    background-color: var(--button-2-hover);
+    border: 0.2rem solid var(--button-2-hover);
+    color: var(--color-secondary);
+    box-shadow: 0px 15px 40px #f5b0b6;
+}
+
+.userdash-rateexp-btn {
+    background-color: #43bccd1a;
+    border: 0.2rem solid #43bccd33;
+    color: var(--color-primary);
+}
+
+.userdash-rateexp-btn:hover {
+    background-color: var(--color-primary);
+    border: 0.2rem solid var(--color-primary);
+    color: var(--color-secondary);
+    box-shadow: 0px 15px 40px #c1e7ec;
+}
+
+/* User Dashboard End
 ---------------------------------------------------------------- */

@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="login-footer-container">
                 <div className="login-footer-sec1">
                     <p>
-                        © <time dateTime={2023}>2023</time>
+                        © <time className='footer-time' dateTime={2023}>2023</time>
                     </p>
                     <address>
                         KK Group of Residency, Virajpet | Designed by Aashan
