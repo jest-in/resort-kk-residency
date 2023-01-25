@@ -17,8 +17,12 @@ export default function BookRoom() {
   // useEffect for fromDate
   useEffect(() => {
     if (fromDate > toDate) setToDate(null);
-    if (!fromDate && fromOrTo === "to") setFromDate(new Date());
+    // if (!fromDate && fromOrTo === "to") setFromDate(new Date());
   }, [fromDate]);
+  // for fromOrTo
+  useEffect(()=>{
+    if (!fromDate && fromOrTo === "to") setFromDate(new Date());
+  },[fromOrTo])
 
   // variable for selected day on calendar
   const [selectedDate, setSelectedDate] = useState(null);
@@ -62,10 +66,10 @@ export default function BookRoom() {
                 </label>
                 <input
                   defaultValue={fromDate ? fromDate.toLocaleDateString() : null}
-                  onClick={(e) => {
-                    setSelectedDate(e.target.defaultValue);
-                    setMinimumDate(new Date());
+                  onClick={() => {
                     setFromOrTo("from");
+                    setMinimumDate(new Date());
+                    setSelectedDate(fromDate?new Date(fromDate):null);
                   }}
                   className="bookroom-form-input"
                   type="text"
@@ -79,9 +83,13 @@ export default function BookRoom() {
                 </label>
                 <input
                   onClick={() => {
-                    setSelectedDate(null);
-                    setMinimumDate(fromDate);
                     setFromOrTo("to");
+                    setMinimumDate(fromDate?fromDate:new Date());
+                    setSelectedDate(
+                      toDate
+                        ? new Date(toDate)
+                        : null
+                    );
                   }}
                   defaultValue={toDate ? toDate.toLocaleDateString() : null}
                   className="bookroom-form-input"
