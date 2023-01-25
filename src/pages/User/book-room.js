@@ -46,7 +46,7 @@ export default function BookRoom() {
               Dates in green color are the available dates
             </p>
           </div>{" "}
-          <form>
+          <form onSubmit={(e)=>submitHandler(e)}>
             <DatePicker
               selected={selectedDate}
               inline
@@ -62,7 +62,8 @@ export default function BookRoom() {
                 </label>
                 <input
                   defaultValue={fromDate ? fromDate.toLocaleDateString() : null}
-                  onClick={() => {
+                  onClick={(e) => {
+                    setSelectedDate(e.target.defaultValue);
                     setMinimumDate(new Date());
                     setFromOrTo("from");
                   }}
@@ -78,8 +79,8 @@ export default function BookRoom() {
                 </label>
                 <input
                   onClick={() => {
+                    setSelectedDate(null);
                     setMinimumDate(fromDate);
-
                     setFromOrTo("to");
                   }}
                   defaultValue={toDate ? toDate.toLocaleDateString() : null}
