@@ -105,9 +105,15 @@ const KKGroupLogoBlack = (props) => {
                 d="M820.57,56.64V46.9h38.29v9.74Zm7.95,49.71V43.88q0-10.18,5.54-15.06T850.24,24h7.62V34.36h-9.07A7.67,7.67,0,0,0,843,36.49,8,8,0,0,0,841,42.31v64Z"
               />
             </g>
-            <text class="cls-4" transform="translate(353.13 190.1)">
+            {/* <text class="cls-4" transform="translate(353.13 190.1)">
               <tspan class="cls-5">R</tspan>
               <tspan x="66.96" y="0">
+                esidency
+              </tspan>
+            </text> */}
+            <text className="cls-4" transform="translate(353.13 190.1)">
+              <tspan className="cls-5">R</tspan>
+              <tspan>
                 esidency
               </tspan>
             </text>
