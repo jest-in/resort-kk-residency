@@ -50,7 +50,7 @@ export default function Dashboard() {
                                     </span>
                                 </li>
                             </ul>
-                            <StarRating />
+                            <StarRating readOnly={true} value={3} />
                             <div className="userdash-cancel-order-btn-div">
                                 <button className="userdash-cancel-order-btn">
                                     Cancel
@@ -101,7 +101,7 @@ export default function Dashboard() {
                                     </span>
                                 </li>
                             </ul>
-                            <StarRating />
+                            <StarRating readOnly={true}/>
                             <div className="userdash-cancel-order-btn-div">
                                 <button className="userdash-cancel-order-btn userdash-rateexp-btn">
                                     Rate your experience
@@ -146,7 +146,7 @@ export default function Dashboard() {
                                     </span>
                                 </li>
                             </ul>
-                            <StarRating />
+                            <StarRating readOnly={true}/>
                             <div className="userdash-cancel-order-btn-div">
                                 <button className="userdash-cancel-order-btn userdash-rateexp-btn">
                                     Rate your experience
