@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom';
 
 export default function SignIn() {
   // input variables
-  const {userId,setUserId}=useState(null);
-  const {password,setPassword}=useState(null);
+  const [userId,setUserId]=useState('');
+  const [password,setPassword]=useState('');
 
   // form submit handler
-  function submitHandler(){
-    
+  function submitHandler(e){
+    e.preventDefault();
   }
 
     return (
@@ -24,9 +24,7 @@ export default function SignIn() {
               <header>
                 <nav className="logo-container">
                   <Link to="/">
-                    <figure>
                       <Logo />
-                    </figure>
                   </Link>
                 </nav>
               </header>
@@ -48,7 +46,7 @@ export default function SignIn() {
           </div>
           <main className="login-div2">
             <div className="login-form-container">
-              <form onSubmit={()=>submitHandler()} autoComplete='off'>
+              <form onSubmit={submitHandler} autoComplete='off'>
                 <div className="login-entries-div">
                   <label className="login-entries-label" htmlFor="email">
                     Email
